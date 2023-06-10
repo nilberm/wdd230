@@ -1,0 +1,38 @@
+section {
+  background: #c65151;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.desktop,
+.mobile {
+  width: 100%;
+}
+
+.desktop img {
+  width: 100%;
+}
+
+.mobile {
+  display: flex;
+  gap: 2rem;
+}
+
+.mobileImg {
+  height: 40rem;
+}
+
+.mobileMenu {
+  height: 16rem;
+}
