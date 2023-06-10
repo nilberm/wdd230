@@ -1,5 +1,9 @@
+body {
+  background: #ddd;
+}
+
 section {
-  background: #c65151;
+  background: #eee;
   margin: 2rem;
   padding: 2rem;
   border-radius: 5px;
@@ -15,9 +19,26 @@ h4 {
   margin: 1rem 0;
 }
 
+.primaryColor {
+  width: 5rem;
+  height: 5rem;
+  background: #dc2626;
+  margin: 1rem 0;
+}
+
+.secundaryColor {
+  width: 5rem;
+  height: 5rem;
+  background: #5c1010;
+  margin: 1rem 0;
+}
+
 .desktop,
 .mobile {
   width: 100%;
+  border: 2px solid #5c1010;
+  padding: 1rem;
+  background: #dc2626;
 }
 
 .desktop img {
