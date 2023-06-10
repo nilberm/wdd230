@@ -7,4 +7,34 @@
   nav ul li {
     width: 100%;
   }
+
+  .sections {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .cardActivites {
+    width: 60%;
+    max-width: none;
+  }
+
+  .cardInformation {
+    width: 500px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }

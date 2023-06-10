@@ -2,11 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
-  --primary-color: #4ade80;
+  --primary-color: #5b21b6;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -16,6 +22,7 @@ header {
   display: flex;
   align-items: center;
   gap: 2rem;
+  color: #fff;
 }
 
 header img {
@@ -35,10 +42,78 @@ ul {
 nav ul li {
   padding: 1rem;
   text-align: center;
-  background: #0891b2;
+  background: #000;
 }
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.titleContent {
+  display: flex;
+
+  border-bottom: 1px solid #ccc;
+  margin: 0 2rem;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#home {
+  background: #835dc1;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  max-width: 550px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.header {
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.card .content {
+  padding: 1.5rem;
+}
+
+.card .content ul {
+  gap: 1rem;
+  font-weight: 600;
+  flex-direction: column;
+}
+
+footer {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 2rem 0;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lastMode {
+  color: #22d3ee;
 }
