@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./styles/icon.png" type="image/png">
   <meta name="description" content="WDD 230 - Web Frontend Development / Nilber Mota / course assignment portal">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,14 @@
     <h1>Nilber Mota</h1>
   </header>
   <nav>
-    <ul>
+    <div class="menu">
+      <button id="menuBtn">
+        <img id="imageBtnOpen" src="./styles/menuOpen.png" alt="icon to open menu" class="visible">
+        <img id="imageBtnClose" src="./styles/menuClose.png" alt="icon to close menu">
+      </button>
+    </div>
+
+    <ul id="menuList" class="menuClose">
       <li id="home"><a href="/">Home</a></li>
       <li><a href="https://nilberm.github.io/wdd230/week01/chamber-site-plan.html">Chamber</a></li>
       <li><a href="">Site Plan</a></li>
@@ -69,6 +77,7 @@
   </footer>
 
   <script src="./scripts/getDates.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>

@@ -17,6 +17,37 @@ header {
 header img {
   width: 5rem;
 }
+
+.menu {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+#menuBtn {
+  background: none;
+  border: none;
+  width: 3.5rem;
+  cursor: pointer;
+}
+
+#menuBtn img {
+  width: 100%;
+  visibility: none;
+  display: none;
+}
+
+#menuBtn .visible {
+  visibility: initial;
+  display: block;
+}
+
+.menuClose {
+  visibility: none;
+  display: none;
+}
+
 nav {
   width: 100%;
 }
