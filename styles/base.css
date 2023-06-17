@@ -2,6 +2,14 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+
+  background: var(--background-light);
+  color: var(--text-light);
+}
+
+.darkMode {
+  background: var(--background-dark);
+  color: var(--text-dark);
 }
 
 header {
@@ -10,12 +18,29 @@ header {
   padding: 2rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 2rem;
   color: #fff;
 }
 
 header img {
   width: 5rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header button {
+  background: #22d3ee;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .menu {
@@ -62,7 +87,7 @@ ul {
 nav ul li {
   padding: 1rem;
   text-align: center;
-  background: #000;
+  background: #222;
 }
 nav ul li a {
   color: #fff;
