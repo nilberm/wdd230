@@ -1,0 +1,54 @@
+@media (min-width: 1000px) {
+  header {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .brand {
+    max-width: none;
+  }
+
+  .menu {
+    display: none;
+    visibility: hidden;
+  }
+
+  #navList {
+    display: flex;
+    visibility: visible;
+    gap: 1rem;
+
+    list-style: none;
+  }
+  #navList li {
+    width: 100%;
+  }
+
+  #navList li a {
+    text-decoration: none;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #navList li a:hover {
+    background: #ddd;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  footer .brand {
+    padding: 2rem;
+    max-width: 7rem;
+    text-align: left;
+  }
+
+  footer nav ul {
+    list-style: none;
+  }
+}
