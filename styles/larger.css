@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 960px) {
   ul {
     display: flex;
     flex-direction: row;
@@ -43,8 +43,6 @@
   }
 
   footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
   }
 }
