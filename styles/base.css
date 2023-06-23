@@ -81,7 +81,7 @@ header button {
 
 #menuBtn img {
   width: 100%;
-  visibility: none;
+  visibility: hidden;
   display: none;
 }
 
@@ -91,7 +91,7 @@ header button {
 }
 
 .menuClose {
-  visibility: none;
+  visibility: hidden;
   display: none;
 }
 
