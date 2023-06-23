@@ -170,6 +170,10 @@ h2 {
   flex-direction: column;
 }
 
+.map {
+  width: 100%;
+}
+
 footer {
   background: var(--primary-color);
   display: flex;
