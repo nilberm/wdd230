@@ -51,4 +51,8 @@
   footer nav ul {
     list-style: none;
   }
+
+  .discoverMain {
+    flex-direction: row;
+  }
 }
