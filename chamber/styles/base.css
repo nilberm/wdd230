@@ -63,7 +63,7 @@ header {
 
 #menuBtn img {
   width: 100%;
-  visibility: none;
+  visibility: hidden;
   display: none;
 }
 
@@ -73,7 +73,7 @@ header {
 }
 
 .menuClose {
-  visibility: none;
+  visibility: hidden;
   display: none;
 }
 
@@ -162,6 +162,11 @@ footer .contactInformation ul {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.discoverMain h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .discoverMain aside h2 {
