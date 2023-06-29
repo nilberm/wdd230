@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["Activites"]
+  "cSpell.words": ["Activites"],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
