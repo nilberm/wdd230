@@ -47,22 +47,38 @@
 
   <main>
     <form method="get" action="record.html">
+      <div id="formmessage"></div>
+
       <label for="userName">Username</label>
-      <input type="text" name="userName" id="userName" required>
+      <input type="text" name="userName" id="userName" pattern="[A-Za-z]{8}" required>
 
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" required>
+      <input type="password" name="password" id="password" pattern="[A-Za-z]{8}" required>
 
       <label for="rePassword">Confirm Password</label>
       <input type="password" name="rePassword" id="rePassword" required>
 
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" required>
+      <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
 
+      <div id="rangevalue">0</div>
       <label for="pageRating">Page Rating</label>
-      <input type="range" name="pageRating" id="pageRating">
+      <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="pageRating">
+      <datalist id="pageRating">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </datalist>
 
-      <button type="submit" title="submit">Confirm</button>
+      <button title="submit" type="submit">Confirm</button>
 
     </form>
   </main>
