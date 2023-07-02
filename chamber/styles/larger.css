@@ -55,4 +55,8 @@
   .discoverMain {
     flex-direction: row;
   }
+
+  .mainContentForm {
+    flex-direction: row;
+  }
 }
