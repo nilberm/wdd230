@@ -28,34 +28,41 @@ numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
 
-const password = document.querySelector("#password");
-const rePassword = document.querySelector("#rePassword");
-const message = document.querySelector("#formmessage");
+// Weather
 
-rePassword.addEventListener("focusout", checkSame);
+const apiKey = "3e5a363e7aa705a644a18fe4a1ad48f8";
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=-3.73&lon=-38.52&appid=${apiKey}`;
 
-// This should be refactored.
-function checkSame() {
-  if (password.value !== rePassword.value) {
-    message.textContent = "❗Passwords DO NOT MATCH!";
-    message.style.visibility = "show";
-    rePassword.style.backgroundColor = "#fff0f3";
-    rePassword.value = "";
-    rePassword.focus();
-  } else {
-    message.style.display = "none";
-    rePassword.style.backgroundColor = "#fff";
-    rePassword.style.color = "#000";
+const apiFetch = async () => {
+  try {
+    const response = await fetch(url);
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data);
+      updateWeatherData(data);
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
   }
-}
+};
 
-const rangevalue = document.getElementById("rangevalue");
-const range = document.getElementById("range");
+const updateWeatherData = (data) => {
+  const iconElement = document.getElementById("icon");
+  const tempElement = document.getElementById("temp");
+  const conditionElement = document.getElementById("condition");
 
-// RANGE event listener
-range.addEventListener("change", displayRatingValue);
-range.addEventListener("input", displayRatingValue);
+  const weatherIcon = data.weather[0].icon;
+  const temperature = data.main.temp;
+  const condition = data.weather[0].description;
 
-function displayRatingValue() {
-  rangevalue.innerHTML = range.value;
-}
+  const temperatureCelsius = (temperature - 273.15).toFixed(1);
+
+  iconElement.innerHTML = `<img src="https://openweathermap.org/img/w/${weatherIcon}.png">`;
+  tempElement.textContent = `${temperatureCelsius} °C`;
+  conditionElement.textContent = ` ${condition}`;
+};
+
+apiFetch();

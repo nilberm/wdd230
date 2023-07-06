@@ -1,0 +1,71 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "https://nilberm.github.io/wdd230/week03/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "https://nilberm.github.io/wdd230/week03/lazyload.html",
+          "title": "LazyLoading"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 6",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "week": "Week 7",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}

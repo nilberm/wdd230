@@ -162,12 +162,32 @@ h2 {
 
 .card .content {
   padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
 }
 
 .card .content ul {
   gap: 1rem;
   font-weight: 600;
   flex-direction: column;
+}
+
+.weatherCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  font-weight: 500;
+}
+
+#condition {
+  text-transform: capitalize;
 }
 
 .map {
