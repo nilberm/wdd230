@@ -39,7 +39,6 @@ const apiFetch = async () => {
 
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
       updateWeatherData(data);
     } else {
       throw Error(await response.text());
