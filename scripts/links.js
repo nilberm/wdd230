@@ -1,7 +1,7 @@
 const baseURL = "https://nilberm.github.io/wdd230/";
 const linksURL = "https://nilberm.github.io/wdd230/data/links.json";
 
-const displayLinks = (weeks) => {
+const displayLinks = ({ weeks }) => {
   const ulElement = document.getElementById("week-list");
 
   weeks.forEach((weekObj, index) => {
