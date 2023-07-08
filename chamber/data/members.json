@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "name": "Company A",
+      "address": "123 Main Street, Toronto, ON",
+      "phone": "(123) 456-7890",
+      "website": "https://www.companya.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Silver",
+      "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "name": "Company B",
+      "address": "456 Oak Avenue, Toronto, ON",
+      "phone": "(987) 654-3210",
+      "website": "https://www.companyb.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Gold",
+      "otherInfo": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+    },
+    {
+      "name": "Company C",
+      "address": "789 Maple Road, Toronto, ON",
+      "phone": "(555) 123-4567",
+      "website": "https://www.companyc.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Bronze",
+      "otherInfo": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+      "name": "Company D",
+      "address": "321 Elm Street, Toronto, ON",
+      "phone": "(444) 567-8901",
+      "website": "https://www.companyd.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Gold",
+      "otherInfo": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+    },
+    {
+      "name": "Company E",
+      "address": "567 Pine Avenue, Toronto, ON",
+      "phone": "(222) 333-4444",
+      "website": "https://www.companye.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "NP",
+      "otherInfo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "name": "Company F",
+      "address": "890 Cedar Street, Toronto, ON",
+      "phone": "(777) 888-9999",
+      "website": "https://www.companyf.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Silver",
+      "otherInfo": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Company G",
+      "address": "234 Walnut Avenue, Toronto, ON",
+      "phone": "(111) 222-3333",
+      "website": "https://www.companyg.com",
+      "image": "https://media.istockphoto.com/id/525568423/pt/foto/londres-piccadilly-durante-a-noite.jpg?s=612x612&w=is&k=20&c=4amtet3RLT3lflWkcE32y5KfZB0mhgM-MjN__2gS2m8=",
+      "membershipLevel": "Gold",
+      "otherInfo": "Suspendisse potenti. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a."
+    }
+  ]
+}
